@@ -56,27 +56,27 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#000000;stroke-width:5.36094;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:#2f2f2f;stroke-width:5.36094;stroke-linecap:round;paint-order:stroke fill markers;fill-opacity:1"
        id="path833"
        cx="67.73333"
        cy="67.73333"
        r="67.73333" />
     <circle
-       style="fill:#ffffff;stroke-width:13.3878;stroke-linecap:round;paint-order:stroke fill markers"
+       style="fill:#fdfdfd;stroke-width:13.3878;stroke-linecap:round;paint-order:stroke fill markers;fill-opacity:1"
        id="path835"
        cx="67.73333"
        cy="67.73333"
        r="58.208332" />
     <text
        xml:space="preserve"
-       style="font-weight:500;font-size:119.13px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Medium';letter-spacing:0px;word-spacing:0px;stroke-width:3.30917"
-       x="31.634247"
-       y="108.89275"
-       id="text839"><tspan
+       style="font-weight:500;font-size:119.13px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Medium';letter-spacing:0px;word-spacing:0px;fill:#2f2f2f;stroke-width:3.3092;fill-opacity:1;"
+       x="31.634201"
+       y="108.89278"
+       id="text905"><tspan
          sodipodi:role="line"
-         id="tspan837"
-         x="31.634247"
-         y="108.89275"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Medium';stroke-width:3.30917">D</tspan></text>
+         id="tspan903"
+         x="31.634201"
+         y="108.89278"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:FiraGO;-inkscape-font-specification:'FiraGO Medium';fill:#2f2f2f;stroke-width:3.3092;fill-opacity:1;">D</tspan></text>
   </g>
 </svg>
