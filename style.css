@@ -97,6 +97,7 @@ body {
   flex-direction: column;
   font-family: 'FiraGO', Helvetica, 'Segoe UI', Tahoma, 'Noto Sans', sans-serif;
   font-size: 1.8rem;
+  font-variant-numeric: oldstyle-nums;
   font-weight: var(--font-weight-body);
   hyphens: auto;
   line-height: 2.4rem;
