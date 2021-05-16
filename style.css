@@ -1,96 +1,115 @@
-/* fira-sans-300 - latin */
 @font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local(''),
-       url('./webfonts/fira-sans-v11-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* fira-sans-300italic - latin */
-@font-face {
-  font-family: 'Fira Sans';
+  font-display: swap;
+  font-family: 'FiraGO';
   font-style: italic;
-  font-weight: 300;
+  font-weight: 200;
   src: local(''),
-       url('./webfonts/fira-sans-v11-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./webfonts/FiraGO-LightItalic.woff2') format('woff2'),
+       url('./webfonts/FiraGO-LightItalic.woff') format('woff'),
+       url('./webfonts/FiraGO-LightItalic.ttf') format('truetype');
 }
-
-/* fira-sans-regular - latin */
 @font-face {
-  font-family: 'Fira Sans';
+  font-display: swap;
+  font-family: 'FiraGO';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   src: local(''),
-       url('./webfonts/fira-sans-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./webfonts/FiraGO-Light.woff2') format('woff2'),
+       url('./webfonts/FiraGO-Light.woff') format('woff'),
+       url('./webfonts/FiraGO-Light.ttf') format('truetype');
 }
-
-/* fira-sans-italic - latin */
 @font-face {
-  font-family: 'Fira Sans';
+  font-display: swap;
+  font-family: 'FiraGO';
   font-style: italic;
   font-weight: 400;
   src: local(''),
-       url('./webfonts/fira-sans-v11-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./webfonts/FiraGO-Italic.woff2') format('woff2'),
+       url('./webfonts/FiraGO-Italic.woff') format('woff'),
+       url('./webfonts/FiraGO-Italic.ttf') format('truetype');
 }
-
-/* fira-sans-500 - latin */
 @font-face {
-  font-family: 'Fira Sans';
+  font-display: swap;
+  font-family: 'FiraGO';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   src: local(''),
-       url('./webfonts/fira-sans-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./webfonts/FiraGO-Regular.woff2') format('woff2'),
+       url('./webfonts/FiraGO-Regular.woff') format('woff'),
+       url('./webfonts/FiraGO-Regular.ttf') format('truetype');
 }
-
-/* fira-sans-500italic - latin */
 @font-face {
-  font-family: 'Fira Sans';
+  font-display: swap;
+  font-family: 'FiraGO';
   font-style: italic;
   font-weight: 500;
   src: local(''),
-       url('./webfonts/fira-sans-v11-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./webfonts/fira-sans-v11-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./webfonts/FiraGO-MediumItalic.woff2') format('woff2'),
+       url('./webfonts/FiraGO-MediumItalic.woff') format('woff')
+       url('./webfonts/FiraGO-MediumItalic.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'FiraGO';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('./webfonts/FiraGO-Medium.woff2') format('woff2'),
+       url('./webfonts/FiraGO-Medium.woff') format('woff'),
+       url('./webfonts/FiraGO-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'FiraGO';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('./webfonts/FiraGO-BoldItalic.woff2') format('woff2'),
+       url('./webfonts/FiraGO-BoldItalic.woff') format('woff')
+       url('./webfonts/FiraGO-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'FiraGO';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('./webfonts/FiraGO-Bold.woff2') format('woff2'),
+       url('./webfonts/FiraGO-Bold.woff') format('woff'),
+       url('./webfonts/FiraGO-Bold.ttf') format('truetype');
 }
 :root {
-  --color-black: #2f2f2f;
-  --color-white: #fdfdfd;
+  --color-dark: #2f2f2f;
+  --color-light: #fdfdfd;
   --font-weight-headings: 500;
-  --font-weight-body: 300;
+  --font-weight-body: 200;
 }
-
 ::selection {
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
-
 html {font-size: 62.5%;}
-
 body {
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  direction: ltr;
   display: flex;
   flex-direction: column;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'FiraGO', Helvetica, 'Segoe UI', Tahoma, 'Noto Sans', sans-serif;
+  font-size: 1.8rem;
   font-weight: var(--font-weight-body);
-  line-height: 1.25;
+  hyphens: auto;
+  line-height: 2.4rem;
   min-height: 100vh;
-  margin: 0 4rem;
+  margin: 2.4rem 4.8rem;
 }
-
 main {flex: 1;}
-
 footer {
-  border-top: 1px solid rgb(0,0,0);
+  border-top: 1px solid var(--color-dark);
+  margin: 2.4rem 0 0 0;
+  padding: 2.4rem 0 0 0;
   text-align: center;
   }
-
 h1,
 h2,
 h3,
@@ -98,82 +117,53 @@ h4,
 h5,
 h6 {
   font-weight: var(--font-weight-headings);
+  margin: 3.6rem 0 1.2rem;
   text-align: center;
 }
-
 h1 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.8rem;
-  }
-  
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+}
 h2 {
-  font-size: 2.8rem;
-  margin: 2.8rem 0 2.4rem;
-  }
-
+  font-size: 4.2rem;
+  line-height: 7.2rem;
+}
 h3 {
-  font-size: 2.4rem;
-  margin: 2.4rem 0 2rem;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
   }
-
 h4 {
-  font-size: 2rem;
-  margin: 2rem 0 1.8rem;
+  font-size: 3.0rem;
+  line-height: 4.8rem;
   }
-
 h5 {
-  font-size: 1.8rem;
-  margin: 1.8rem 0 1.6rem;}
-
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  }
 h6 {
-  font-size: 1.6rem;
-  margin: 1.6rem 0 1.4rem;
-}
-
-p {hyphens: auto;}
-
-a {color: var(--color-black);}
-
-a:hover {
-  background-color: black;
-  color: var(--color-white);
-}
-
-@media ( min-width: 72rem ) {
-
-  body {
   font-size: 1.8rem;
-  margin: 0 auto;
+  line-height: 2.4rem;
+  }
+p {
+  margin: 0;
+}
+p + p {
+  margin: 2.4rem 0 0 0;
+}
+a {color: var(--color-dark);}
+a:hover {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+@media ( prefers-color-scheme: dark) {
+  :root {
+    --color-light: #2f2f2f;
+    --color-dark: #fdfdfd;
+  }
+}
+@media ( min-width: 72rem ) {
+  body {
+  margin: 2.4rem auto;
   max-width: 72rem;
   }
-
-h1 {
-  font-size: 4rem;
-  margin: 4rem 0 3.6rem;
-  }
-  
-h2 {
-  font-size: 3.6rem;
-  margin: 3.6rem 0 3.2rem;
-  }
-
-h3 {
-  font-size: 3.2rem;
-  margin: 3.2rem 0 2.8rem;
-  }
-
-h4 {
-  font-size: 2.8rem;
-  margin: 2.8rem 0 2.4rem;
-  }
-
-h5 {
-  font-size: 2.4rem;
-  margin: 2.4rem 0 2rem;}
-
-h6 {
-  font-size: 2rem;
-  margin: 2rem 0 1.8rem;
-}
-
 }
