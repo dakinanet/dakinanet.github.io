@@ -124,10 +124,6 @@ header div.branding {
 header div.branding div {
   margin: 0 0.5rem;
 }
-header div.branding div.branding-logo img {
-  display: block;
-  height: calc(var(--basic-leading)*2);
-}
 header div.branding div.branding-name {
   font-size: 2rem;
 }
